@@ -2,12 +2,16 @@
 
 ## 🔧 Getting Started
 
+Forked the Repository
+
 ### **1️⃣ Clone the Repository**
 
 ```sh
-git clone https://github.com/La-SSET/LaSSET_FS.git
+git clone https://github.com/<your name git id>/LaSSET_FS.git
 cd LaSSET_FS
 ```
+
+### **it is adviced to create a branch to edit the code**
 
 ### **2️⃣ Install Dependencies**
 
@@ -22,6 +26,8 @@ npm run dev
 ```
 
 This starts the project with **Hot Module Reloading (HMR)** enabled.
+
+after editing the code give a **Pull request**
 
 ---
 
