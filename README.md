@@ -1,12 +1,52 @@
-# React + Vite
+# LaSSET
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Getting Started
 
-Currently, two official plugins are available:
+### **1️⃣ Clone the Repository**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```sh
+git clone https://github.com/La-SSET/LaSSET_FS.git
+cd LaSSET_FS
+```
 
-## Expanding the ESLint configuration
+### **2️⃣ Install Dependencies**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```sh
+npm install
+```
+
+### **3️⃣ Run the Development Server**
+
+```sh
+npm run dev
+```
+
+This starts the project with **Hot Module Reloading (HMR)** enabled.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+### 🚀 Contributions
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m "Added a new feature"`).
+4. Push your branch (`git push origin feature-branch`).
+5. Submit a pull request.
+
+For any issues, feel free to open an [issue](https://github.com/La-SSET/LaSSET_FS/issues).
+
+---
+
+### 👥 Authors
+
+- **La-SSET Club** - Maintainers of the repository.
+
+---
