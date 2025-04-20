@@ -1,4 +1,3 @@
-
 import { Hero } from "@/components/home/Hero";
 import { Introduction } from "@/components/home/Introduction";
 import { ResearchHighlights } from "@/components/home/ResearchHighlights";
@@ -11,8 +10,8 @@ export default function Home() {
       <Hero />
       <Introduction />
       <ResearchHighlights />
-      <QuickLinks />
-      <LatestNews />
+      {/* <QuickLinks /> */}
+      {/* <LatestNews /> */}
     </div>
   );
 }
