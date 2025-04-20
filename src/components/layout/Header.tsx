@@ -30,7 +30,7 @@ export function Header() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <span className="text-3xl font-bold text-research-700">
-              Research<span className="text-accent-500">Hub</span>
+              LASSET<span className="text-accent-500"></span>
             </span>
           </Link>
         </div>
@@ -59,9 +59,9 @@ export function Header() {
         </div>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button variant="outline" className="text-sm font-semibold leading-6">
-            Member Access <span aria-hidden="true">&rarr;</span>
-          </Button>
+          {/* <Button variant="outline" className="text-sm font-semibold leading-6">
+            <span aria-hidden="true">&rarr;</span>
+          </Button> */}
         </div>
       </nav>
 
@@ -102,11 +102,11 @@ export function Header() {
                     </Link>
                   ))}
                 </div>
-                <div className="py-6">
+                {/* <div className="py-6">
                   <Button variant="outline" className="w-full">
                     Member Access
                   </Button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
