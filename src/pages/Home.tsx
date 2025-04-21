@@ -11,7 +11,7 @@ export default function Home() {
       <Introduction />
       <ResearchHighlights />
       {/* <QuickLinks /> */}
-      {/* <LatestNews /> */}
+      <LatestNews />
     </div>
   );
 }

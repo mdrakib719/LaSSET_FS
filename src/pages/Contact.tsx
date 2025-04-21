@@ -116,9 +116,8 @@ export default function Contact() {
                       Location
                     </h3>
                     <address className="mt-2 not-italic text-gray-600">
-                      <p>Science Building, Room 301</p>
-                      <p>123 University Avenue</p>
-                      <p>Research City, RC 10001</p>
+                      <p>BRAC University, Room 12B,16L</p>
+                      <p>Kha 224, Bir Uttam Rafiqul Islam Ave, Dhaka 1212</p>
                     </address>
                   </div>
                 </div>
@@ -129,10 +128,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-3">
                     <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                    <p className="mt-2 text-gray-600">
-                      contact@researchhub.edu
-                    </p>
-                    <p className="mt-1 text-gray-600">info@researchhub.edu</p>
+                    <p className="mt-2 text-gray-600">lasset@bracu.ac.bd</p>
                   </div>
                 </div>
 
@@ -142,8 +138,8 @@ export default function Contact() {
                   </div>
                   <div className="ml-3">
                     <h3 className="text-lg font-medium text-gray-900">Phone</h3>
-                    <p className="mt-2 text-gray-600">+1 (555) 123-4567</p>
-                    <p className="mt-1 text-gray-600">+1 (555) 765-4321</p>
+
+                    <p className="mt-1 text-gray-600">+09617-445174</p>
                   </div>
                 </div>
 
@@ -156,12 +152,12 @@ export default function Contact() {
                       Lab Hours
                     </h3>
                     <p className="mt-2 text-gray-600">
-                      Monday - Friday: 9am - 6pm
+                      Saturday - Thuday: 7am - 7pm
                     </p>
-                    <p className="mt-1 text-gray-600">
+                    {/* <p className="mt-1 text-gray-600">
                       Saturday: 10am - 2pm (By Appointment)
-                    </p>
-                    <p className="mt-1 text-gray-600">Sunday: Closed</p>
+                    </p> */}
+                    <p className="mt-1 text-gray-600">Friday: Closed</p>
                   </div>
                 </div>
               </div>

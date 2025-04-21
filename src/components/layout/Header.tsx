@@ -8,12 +8,8 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Research", href: "/research" },
+  { name: "News", href: "/news" },
   { name: "People", href: "/people" },
-  // { name: "Publications", href: "/publications" },
-  // { name: "Resources", href: "/resources" },
-  // { name: "Opportunities", href: "/opportunities" },
-  // { name: "Partners", href: "/partners" },
-  // { name: "News", href: "/news" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -27,14 +23,26 @@ export function Header() {
         className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
         aria-label="Global"
       >
+        {/* Logo */}
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-            <span className="text-3xl font-bold text-research-700">
-              LASSET<span className="text-accent-500"></span>
-            </span>
+            <img
+              src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//269265388_437140104692210_184097023900869449_n.png"
+              alt="LaSSET Logo"
+              className="h-10 w-auto"
+            />
+            <div className="flex flex-col leading-none">
+              <span className="text-3xl font-bold text-research-700">
+                LaSSET
+              </span>
+              <span className="text-s text-accent-500 -mt-1">
+                Laboratory of Space System Engineering and Technology
+              </span>
+            </div>
           </Link>
         </div>
 
+        {/* Mobile Menu Toggle Button */}
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -46,22 +54,17 @@ export function Header() {
           </button>
         </div>
 
-        <div className="hidden lg:flex lg:gap-x-8">
+        {/* Desktop Menu - Right Aligned */}
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center gap-x-8">
           {navigation.map((item) => (
             <Link
               key={item.name}
               to={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900 hover:text-research-500 transition-colors"
+              className="text-xl font-semibold leading-6 text-gray-900 hover:text-research-500 transition-colors"
             >
               {item.name}
             </Link>
           ))}
-        </div>
-
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          {/* <Button variant="outline" className="text-sm font-semibold leading-6">
-            <span aria-hidden="true">&rarr;</span>
-          </Button> */}
         </div>
       </nav>
 
@@ -79,6 +82,7 @@ export function Header() {
                   Research<span className="text-accent-500">Hub</span>
                 </span>
               </Link>
+
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -102,11 +106,6 @@ export function Header() {
                     </Link>
                   ))}
                 </div>
-                {/* <div className="py-6">
-                  <Button variant="outline" className="w-full">
-                    Member Access
-                  </Button>
-                </div> */}
               </div>
             </div>
           </div>

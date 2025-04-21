@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-bold text-research-300 mb-4">
-              LASSET
+              LaSSET
             </h3>
             <p className="text-gray-300 mt-2">
               Advancing scientific research and technological innovation through
@@ -113,11 +113,11 @@ export function Footer() {
             </h3>
 
             <address className="mt-4 not-italic text-gray-400">
-              <p>BRAC University, Room 12B,20L</p>
+              <p>BRAC University, Room 12B,16L</p>
               {/* <p>123 University Avenue</p> */}
               <p>Kha 224, Bir Uttam Rafiqul Islam Ave, Dhaka 1212</p>
-              <p className="mt-2">contact@researchhub.edu</p>
-              <p>+1 (555) 123-4567</p>
+              <p className="mt-2">lasset@bracu.ac.bd</p>
+              <p>09617-445174</p>
             </address>
           </div>
         </div>
