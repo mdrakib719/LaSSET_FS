@@ -38,7 +38,7 @@ export default function News() {
               <Card className="overflow-hidden hover:shadow-md transition-shadow duration-300">
                 <div className="w-full h-48 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg"
                     alt="Research breakthrough"
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                   />
@@ -55,8 +55,9 @@ export default function News() {
                     Brazil
                   </CardTitle>
                   <CardDescription>
-                    Our lab has received a $2.5M grant to advance work on
-                    collaborative robotics systems.
+                    The RoboCup Rescue Robot League is not just any competition;
+                    it’s a global arena where the brightest minds converge to
+                    push the boundaries of robotics and artificial intelligence.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -71,6 +72,12 @@ export default function News() {
                   <Button
                     variant="link"
                     className="px-0 text-research-600 hover:text-research-700"
+                    onClick={() =>
+                      window.open(
+                        "https://bracuexpress.com/bracu-alter-excels-for-the-finals-of-robocup-2024/?utm_source=chatgpt.com",
+                        "_blank"
+                      )
+                    }
                   >
                     Read full story <ArrowRight className="ml-1 h-4 w-4" />
                   </Button>
@@ -81,7 +88,7 @@ export default function News() {
               <Card className="overflow-hidden hover:shadow-md transition-shadow duration-300">
                 <div className="w-full h-48 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//469825232_1373973917214824_5337420237526801877_n.jpg"
                     alt="New partnership"
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                   />
@@ -94,25 +101,32 @@ export default function News() {
                     <Clock className="mr-1 h-4 w-4" />4 min read
                   </div>
                   <CardTitle>
-                    Strategic Partnership with Space Technology Corp
+                    Bangladeshi team 'BRACU Alter' in the finals of RoboCup
+                    Rescue Robot League
                   </CardTitle>
                   <CardDescription>
-                    Expanding our research capabilities through industry
-                    collaboration.
+                    Team from BracU qualifies for final round of RoboCup Rescue
+                    2024
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    We're excited to announce a new strategic partnership with
-                    Space Technology Corporation that will enhance our research
-                    capabilities and provide new opportunities for technology
-                    transfer.
+                    BRAC University's rescue robot team "BRACU Alter" has
+                    secured a spot in the finals of the 2024 RoboCup Rescue
+                    Robot League, a prestigious international robotics
+                    competition.
                   </p>
                 </CardContent>
                 <CardFooter>
                   <Button
                     variant="link"
                     className="px-0 text-research-600 hover:text-research-700"
+                    onClick={() =>
+                      window.open(
+                        "https://www.thedailystar.net/tech-startup/news/team-bracu-qualifies-final-round-robocup-rescue-2024-3582531?utm_source=chatgpt.com",
+                        "_blank"
+                      )
+                    }
                   >
                     Read full story <ArrowRight className="ml-1 h-4 w-4" />
                   </Button>
@@ -123,7 +137,7 @@ export default function News() {
               <Card className="overflow-hidden hover:shadow-md transition-shadow duration-300">
                 <div className="w-full h-48 overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//30.jpg"
                     alt="Research publication"
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                   />
@@ -136,7 +150,8 @@ export default function News() {
                     <Clock className="mr-1 h-4 w-4" />2 min read
                   </div>
                   <CardTitle>
-                    Paper Accepted at International Conference
+                    Team from BracU qualifies for final round of RoboCup Rescue
+                    2024
                   </CardTitle>
                   <CardDescription>
                     Our research on advanced navigation algorithms has been
@@ -145,10 +160,10 @@ export default function News() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Our team's research paper on "Adaptive Navigation Strategies
-                    for Autonomous Robots in Complex Environments" has been
-                    accepted for presentation at the International Robotics
-                    Conference.
+                    BRACU ALTER, a rescue rover team from the Laboratory of
+                    Space System Engineering and Technology (LaSSET) at BRAC
+                    University's BSRM School of Engineering, in qualifying for
+                    the final round of the RoboCup Rescue Robot League 2024.
                   </p>
                 </CardContent>
                 <CardFooter>

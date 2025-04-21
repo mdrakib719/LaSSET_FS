@@ -14,28 +14,29 @@ const news = [
     id: 1,
     title: "BRACU ALTER selected for the final round of ROBOCUP 2025 in Brazil",
     summary:
-      "Our lab has received a $2.5M grant to advance work on collaborative robotics systems for emergency response scenarios.",
+      "The RoboCup Rescue Robot League is not just any competition; it’s a global arena where the brightest minds converge to push the boundaries of robotics and artificial intelligence.",
     date: "April 12, 2025",
     readTime: "3 min read",
-    link: "/news/grant-robotics-research",
+    link: "https://bracuexpress.com/bracu-alter-excels-for-the-finals-of-robocup-2024/?utm_source=chatgpt.com",
   },
   {
     id: 2,
-    title: "Upcoming Workshop: AI in Space Applications",
+    title:
+      "Bangladeshi team 'BRACU Alter' in the finals of RoboCup Rescue Robot League",
     summary:
-      "Join us for a two-day workshop exploring the latest developments in AI applications for space exploration and satellite operations.",
-    date: "May 5-6, 2025",
+      'BRAC University\'s rescue robot team "BRACU Alter" has secured a spot in the finals of the 2024 RoboCup Rescue Robot League, a prestigious international robotics competition.',
+    date: "April 5, 2024",
     readTime: "1 min read",
     link: "/news/ai-space-workshop",
   },
   {
     id: 3,
-    title: "Paper Accepted at International Conference",
+    title: "Team from BracU qualifies for final round of RoboCup Rescue 2024",
     summary:
-      "Our research on advanced navigation algorithms has been accepted for presentation at the International Robotics Conference.",
-    date: "March 28, 2025",
+      "BRACU ALTER, a rescue rover team from the Laboratory of Space System Engineering and Technology (LaSSET) at BRAC University's BSRM School of Engineering, in qualifying for the final round of the RoboCup Rescue Robot League 2024.",
+    date: "July 24, 2024",
     readTime: "2 min read",
-    link: "/news/paper-accepted-irc",
+    link: "https://www.thedailystar.net/tech-startup/news/team-bracu-qualifies-final-round-robocup-rescue-2024-3582531?utm_source=chatgpt.com",
   },
 ];
 

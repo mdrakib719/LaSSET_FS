@@ -13,6 +13,7 @@ export default function About() {
           </p>
         </div>
 
+        {/* History and Founding */}
         <div className="mt-16 bg-white rounded-lg shadow-sm p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
             History and Founding
@@ -34,13 +35,14 @@ export default function About() {
           </p>
         </div>
 
+        {/* Mission and Vision */}
         <div className="mt-8 bg-white rounded-lg shadow-sm p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
             Mission and Vision
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold text-research-700 mb-3">
+              <h3 className="text-xl font-semibold text-blue-700 mb-3">
                 Our Mission
               </h3>
               <p className="text-gray-600">
@@ -50,7 +52,7 @@ export default function About() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-research-700 mb-3">
+              <h3 className="text-xl font-semibold text-blue-700 mb-3">
                 Our Vision
               </h3>
               <p className="text-gray-600">
@@ -62,11 +64,12 @@ export default function About() {
           </div>
         </div>
 
+        {/* Research Focus Areas */}
         <div className="mt-8 bg-white rounded-lg shadow-sm p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
             Research Focus Areas
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 Robotics
@@ -74,7 +77,6 @@ export default function About() {
               <ul className="list-disc list-inside text-gray-600 space-y-2">
                 <li>Autonomous Ground Robotics</li>
                 <li>SLAM and Localization Technologies</li>
-
                 <li>Aerial Vehicle Systems</li>
               </ul>
             </div>
@@ -88,21 +90,10 @@ export default function About() {
                 <li>Thrust Vector and Propulsion Control</li>
               </ul>
             </div>
-            {/* <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Interdisciplinary Projects
-              </h3>
-              <ul className="list-disc list-inside text-gray-600 space-y-2">
-                <li>AI for Space Applications</li>
-                <li>Planetary Exploration Robotics</li>
-                <li>Sustainable Space Technology</li>
-                <li>Earth Observation Systems</li>
-                <li>Crisis Response Technology</li>
-              </ul>
-            </div> */}
           </div>
         </div>
 
+        {/* Facilities */}
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
             Our Facilities
@@ -114,23 +105,6 @@ export default function About() {
                 alt="Laboratory space"
                 className="w-full h-64 object-cover rounded-lg"
               />
-              {/* <h3 className="text-xl font-semibold mt-4 mb-2">
-                State-of-the-Art Laboratories
-              </h3>
-              <p className="text-gray-600">
-                Our lab has two fully equipped research facilities at BRAC
-                University, featuring advanced tools for robotics, aerospace,
-                and satellite systems. We developed Bangladesh’s first rescue
-                rover capable of stair traversal using flipper-based mobility,
-                along with another autonomous rover integrated with GPS, SLAM,
-                and a 6-DOF robotic arm. In aerial systems, we operate
-                high-performance multirotor drones and a custom-built VTOL
-                platform named Vitor, used for autonomous navigation, mapping,
-                and environmental monitoring. Our space research includes
-                in-house designed CubeSats and CanSats, enabling experiments in
-                telemetry, onboard computing, and satellite communication
-                systems.
-              </p> */}
             </div>
             <div>
               <img
@@ -138,17 +112,9 @@ export default function About() {
                 alt="Computing facility"
                 className="w-full h-64 object-cover rounded-lg"
               />
-              {/* <h3 className="text-xl font-semibold mt-4 mb-2">
-                Computing Infrastructure
-              </h3>
-              <p className="text-gray-600">
-                High-performance computing resources and simulation environments
-                enable complex modeling and data analysis for our research
-                projects.
-              </p> */}
             </div>
           </div>
-          <h3 className="text-xl font-semibold mt-4 mb-2">
+          <h3 className="text-xl font-semibold mt-8 mb-2">
             State-of-the-Art Laboratories
           </h3>
           <p className="text-gray-600">

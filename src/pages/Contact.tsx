@@ -169,7 +169,7 @@ export default function Contact() {
               </h2>
               <div className="flex justify-center space-x-4">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/braculasset/about_profile_transparency"
                   className="p-2 bg-gray-100 rounded-full text-gray-600 hover:bg-research-100 hover:text-research-600"
                 >
                   <svg

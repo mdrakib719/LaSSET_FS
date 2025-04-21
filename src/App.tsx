@@ -12,7 +12,7 @@ import People from "./pages/People";
 // import Resources from "./pages/Resources";
 // import Opportunities from "./pages/Opportunities";
 // import Partners from "./pages/Partners";
-// import News from "./pages/News";
+import News from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -33,8 +33,8 @@ const App = () => (
             {/* <Route path="/publications" element={<Publications />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/opportunities" element={<Opportunities />} />
-            <Route path="/partners" element={<Partners />} />
-            <Route path="/news" element={<News />} /> */}
+            <Route path="/partners" element={<Partners />} /> */}
+            <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

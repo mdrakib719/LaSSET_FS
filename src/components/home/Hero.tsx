@@ -60,9 +60,10 @@ export function Hero() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="text-white border-white hover:bg-black/10"
+                  className="text-black border-white hover:bg-black/10"
                 >
                   About Our Lab
+                  <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
             </div>
